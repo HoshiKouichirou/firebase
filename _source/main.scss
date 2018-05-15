@@ -1,0 +1,40 @@
+body{
+	margin: 0px;
+	font-family: futara;
+	background-color: #212121;
+}
+main{
+	text-align: center;
+}
+button{
+	position: relative;
+  width: 150px;
+  height: 2.5em;
+  background-color: #fafafa;
+  border: solid 1px #212121;
+  outline: none;
+  font-size: 1em;
+  color: #212121;
+  border-radius: 3px;
+  transition: 0.2s ease-in-out;
+  margin-bottom: 20px;
+	font-family: futara;
+	top: 50vh;
+}
+button:after{
+  content: "";
+  transition: 0.2s ease-in-out;
+}
+button.active:after{
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 5px;
+  height: 100%;
+  background-color: #64dd17;
+}
+button:active{
+  background-color: #555;
+  color: #fafafa;
+}

@@ -1,6 +1,6 @@
 $(function() {
   const Ref = firebase.database().ref('hiButton');
-
+//test すはや
 	if(snapshot.val().hi_button !== true){
   	let active = false; 
 		 }
